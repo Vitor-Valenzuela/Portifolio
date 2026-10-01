@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contato | Vitor Alex Calisto</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<div class="app">
+
+    <aside class="sidebar">
+
+        <a href="index.html" class="brand">
+            <span class="brand-mark">VA</span>
+
+            <span class="brand-info">
+                <strong>Vitor Alex</strong>
+                <small>PORTFÓLIO</small>
+            </span>
+        </a>
+
+        <div class="sidebar-label">NAVEGAÇÃO</div>
+
+        <nav class="sidebar-nav">
+
+            <a href="index.html" class="nav-link">
+                <span>01</span> Dashboard
+            </a>
+
+            <a href="sobre.html" class="nav-link">
+                <span>02</span> Sobre mim
+            </a>
+
+            <a href="projetos.html" class="nav-link">
+                <span>03</span> Projetos
+            </a>
+
+            <a href="tecnologias.html" class="nav-link">
+                <span>04</span> Tecnologias
+            </a>
+
+            <a href="trajetoria.html" class="nav-link">
+                <span>05</span> Trajetória
+            </a>
+
+            <a href="contato.html" class="nav-link active">
+                <span>06</span> Contato
+            </a>
+
+            <a href="configuracoes.html" class="nav-link">
+                <span>07</span> Configurações
+            </a>
+
+        </nav>
+
+    </aside>
+
+
+    <main class="main-content">
+
+        <header class="topbar">
+
+            <button class="mobile-menu" id="mobileMenu">☰</button>
+
+            <div class="breadcrumb">
+                PORTFÓLIO <span>/</span> CONTATO
+            </div>
+
+            <div class="topbar-actions">
+
+                <span class="current-time" id="currentTime"></span>
+
+                    <button
+                    class="theme-toggle"
+                    id="themeToggle"
+                    aria-label="Alternar tema"
+                    title="Alternar tema">
+                    ☀
+                </button>
+
+            </div>
+
+        </header>
+
+
+        <section class="page">
+
+            <div class="page-header">
+
+                <div>
+
+                    <span class="section-kicker">
+                        ESTABLISH_CONNECTION
+                    </span>
+
+                    <h1>
+                        Vamos conversar sobre
+                        <span>um projeto.</span>
+                    </h1>
+
+                    <p class="page-description">
+                        Estou aberto a oportunidades, projetos,
+                        colaborações e desenvolvimento de soluções
+                        em tecnologia.
+                    </p>
+
+                </div>
+
+                <span class="page-code">
+                    #CONTACT
+                </span>
+
+            </div>
+
+
+            <div class="contact-layout">
+
+                <section class="panel">
+
+                    <div class="panel-header">
+
+                        <div>
+
+                            <span class="panel-code">
+                                MENSAGEM
+                            </span>
+
+                            <h2>
+                                Entre em contato
+                            </h2>
+
+                        </div>
+
+                    </div>
+
+
+                    <form id="contact-form" class="contact-form">
+
+                        <label>
+                            <span>NOME</span>
+
+                            <input
+                                type="text"
+                                name="nome"
+                                placeholder="Seu nome"
+                                required>
+                        </label>
+
+
+                        <label>
+                            <span>EMAIL</span>
+
+                            <input
+                                type="email"
+                                name="email"
+                                placeholder="seu@email.com"
+                                required>
+                        </label>
+
+
+                        <label>
+                            <span>MENSAGEM</span>
+
+                            <textarea
+                                name="mensagem"
+                                rows="6"
+                                placeholder="Conte um pouco sobre o projeto..."
+                                required></textarea>
+                        </label>
+
+
+                        <button
+                            type="submit"
+                            class="btn btn-primary">
+                            Enviar mensagem
+                        </button>
+
+                    </form>
+
+                </section>
+
+
+                <aside class="contact-side">
+
+                    <div class="contact-card">
+
+                        <span>EMAIL</span>
+
+                        <a href="mailto:vitoralex0412@gmail.com">
+                            vitoralex0412@gmail.com
+                        </a>
+
+                    </div>
+
+
+                    <div class="contact-card">
+
+                        <span>GITHUB</span>
+
+                        <a
+                            href="https://github.com/Vitor-Valenzuela"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            github.com/Vitor-Valenzuela
+                        </a>
+
+                    </div>
+
+
+                    <div class="contact-card">
+
+                        <span>LINKEDIN</span>
+
+                        <a
+                            href="https://www.linkedin.com/in/vitor-alex-calisto-valenzuela-278415334/"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            Perfil profissional
+                        </a>
+
+                    </div>
+
+                </aside>
+
+            </div>
+
+        </section>
+
+
+        <footer class="footer">
+
+            <strong>VITOR ALEX CALISTO</strong>
+
+            <span>
+                © <span id="year"></span>
+            </span>
+
+        </footer>
+
+    </main>
+
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>

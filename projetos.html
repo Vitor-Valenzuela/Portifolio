@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Projetos | Vitor Alex Calisto</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<div class="app">
+
+    <aside class="sidebar">
+
+        <a href="index.html" class="brand">
+            <span class="brand-mark">VA</span>
+
+            <span class="brand-info">
+                <strong>Vitor Alex</strong>
+                <small>PORTFÓLIO</small>
+            </span>
+        </a>
+
+        <div class="sidebar-label">NAVEGAÇÃO</div>
+
+        <nav class="sidebar-nav">
+
+            <a href="index.html" class="nav-link">
+                <span>01</span> Dashboard
+            </a>
+
+            <a href="sobre.html" class="nav-link">
+                <span>02</span> Sobre mim
+            </a>
+
+            <a href="projetos.html" class="nav-link active">
+                <span>03</span> Projetos
+            </a>
+
+            <a href="tecnologias.html" class="nav-link">
+                <span>04</span> Tecnologias
+            </a>
+
+            <a href="trajetoria.html" class="nav-link">
+                <span>05</span> Trajetória
+            </a>
+
+            <a href="contato.html" class="nav-link">
+                <span>06</span> Contato
+            </a>
+
+            <a href="configuracoes.html" class="nav-link">
+                <span>07</span> Configurações
+            </a>
+
+        </nav>
+
+    </aside>
+
+
+    <main class="main-content">
+
+        <header class="topbar">
+
+            <button class="mobile-menu" id="mobileMenu">☰</button>
+
+            <div class="breadcrumb">
+                PORTFÓLIO <span>/</span> PROJETOS
+            </div>
+
+            <div class="topbar-actions">
+
+                <span class="current-time" id="currentTime"></span>
+
+                <button
+                    class="theme-toggle"
+                    id="themeToggle"
+                    aria-label="Alternar tema"
+                    title="Alternar tema">
+                    ☾
+                </button>
+
+            </div>
+
+        </header>
+
+
+        <section class="page">
+
+            <div class="page-header">
+
+                <div>
+
+                    <span class="section-kicker">
+                        PORTFÓLIO
+                    </span>
+
+                    <h1>
+                        Projetos em
+                        <span>destaque.</span>
+                    </h1>
+
+                    <p class="page-description">
+                        Projetos envolvendo software, web, dados,
+                        automação, IoT e atividades acadêmicas.
+                    </p>
+
+                </div>
+
+                <span class="page-code">
+                    #PROJECTS
+                </span>
+
+            </div>
+
+
+            <div class="filters">
+
+                <button class="filter active" data-filter="all">
+                    Todos
+                </button>
+
+                <button class="filter" data-filter="software">
+                    Software
+                </button>
+
+                <button class="filter" data-filter="web">
+                    Web
+                </button>
+
+                <button class="filter" data-filter="iot">
+                    IoT
+                </button>
+
+                <button class="filter" data-filter="academico">
+                    Acadêmico
+                </button>
+
+            </div>
+
+
+            <div class="project-grid">
+
+
+                <article class="project-card"
+                    data-tags="software web">
+
+                    <div class="project-number">
+                        01
+                    </div>
+
+                    <div class="project-visual visual-green">
+                        PONTO
+                    </div>
+
+                    <div class="project-body">
+
+                        <span class="project-category">
+                            SISTEMA • SOFTWARE
+                        </span>
+
+                        <h2>
+                            Sistema de Ponto Eletrônico
+                        </h2>
+
+                        <p>
+                            Sistema desenvolvido para controle de
+                            jornada de trabalho, registro de entrada
+                            e saída, acompanhamento de horários e
+                            organização das informações dos usuários.
+                        </p>
+
+                        <div class="tag-list">
+                            <span>Web</span>
+                            <span>Banco de Dados</span>
+                            <span>Autenticação</span>
+                            <span>Relatórios</span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <article class="project-card"
+                    data-tags="software">
+
+                    <div class="project-number">
+                        02
+                    </div>
+
+                    <div class="project-visual visual-purple">
+                        DATA
+                    </div>
+
+                    <div class="project-body">
+
+                        <span class="project-category">
+                            SOFTWARE • DADOS
+                        </span>
+
+                        <h2>
+                            DataAnalyzer Pro
+                        </h2>
+
+                        <p>
+                            Aplicação desktop para análise de arquivos
+                            Excel e CSV, com dashboards, gráficos,
+                            insights e geração de relatórios.
+                        </p>
+
+                        <div class="tag-list">
+                            <span>Python</span>
+                            <span>Pandas</span>
+                            <span>CustomTkinter</span>
+                            <span>Plotly</span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <article class="project-card"
+                    data-tags="iot software">
+
+                    <div class="project-number">
+                        03
+                    </div>
+
+                    <div class="project-visual visual-cyan">
+                        IOT
+                    </div>
+
+                    <div class="project-body">
+
+                        <span class="project-category">
+                            AUTOMAÇÃO • IOT
+                        </span>
+
+                        <h2>
+                            Automação de Irrigação Agrícola
+                        </h2>
+
+                        <p>
+                            Projeto com ESP32 para automação de irrigação,
+                            utilizando sensores, acionamento de equipamentos,
+                            banco de dados e painel web.
+                        </p>
+
+                        <div class="tag-list">
+                            <span>ESP32</span>
+                            <span>C/C++</span>
+                            <span>IoT</span>
+                            <span>Supabase</span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <article class="project-card"
+                    data-tags="software academico">
+
+                    <div class="project-number">
+                        04
+                    </div>
+
+                    <div class="project-visual visual-blue">
+                        SQL
+                    </div>
+
+                    <div class="project-body">
+
+                        <span class="project-category">
+                            BANCO DE DADOS
+                        </span>
+
+                        <h2>
+                            Modelagem e Sistemas de Banco de Dados
+                        </h2>
+
+                        <p>
+                            Projetos envolvendo modelagem relacional,
+                            criação de tabelas, relacionamentos,
+                            consultas SQL e organização de dados.
+                        </p>
+
+                        <div class="tag-list">
+                            <span>SQL</span>
+                            <span>MySQL</span>
+                            <span>PHPMyAdmin</span>
+                            <span>Modelagem</span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <article class="project-card"
+                    data-tags="web">
+
+                    <div class="project-number">
+                        05
+                    </div>
+
+                    <div class="project-visual visual-orange">
+                        MUARQ
+                    </div>
+
+                    <div class="project-body">
+
+                        <span class="project-category">
+                            WEB • DESIGN
+                        </span>
+
+                        <h2>
+                            MUARQ Web
+                        </h2>
+
+                        <p>
+                            Redesign de uma experiência web para o
+                            Museu de Arqueologia da UFMS, com identidade
+                            visual inspirada em terracota e patrimônio cultural.
+                        </p>
+
+                        <div class="tag-list">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>UI/UX</span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <article class="project-card"
+                    data-tags="academico">
+
+                    <div class="project-number">
+                        06
+                    </div>
+
+                    <div class="project-visual visual-green">
+                        ODS
+                    </div>
+
+                    <div class="project-body">
+
+                        <span class="project-category">
+                            SUSTENTABILIDADE
+                        </span>
+
+                        <h2>
+                            Logística Reversa de Baterias
+                        </h2>
+
+                        <p>
+                            Projeto sobre reaproveitamento, reciclagem
+                            e destinação de baterias e componentes
+                            eletrônicos, considerando impactos ambientais
+                            e aproveitamento econômico.
+                        </p>
+
+                        <div class="tag-list">
+                            <span>ODS</span>
+                            <span>Reciclagem</span>
+                            <span>Pesquisa</span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <article class="project-card"
+                    data-tags="academico">
+
+                    <div class="project-number">
+                        07
+                    </div>
+
+                    <div class="project-visual visual-gray">
+                        ENTER
+                    </div>
+
+                    <div class="project-body">
+
+                        <span class="project-category">
+                            PROJETO ACADÊMICO • UFMS
+                        </span>
+
+                        <h2>
+                            Envelhecer nos Territórios
+                        </h2>
+
+                        <p>
+                            Projeto ligado ao envelhecimento saudável
+                            e proteção dos direitos da pessoa idosa,
+                            envolvendo pesquisa, organização de
+                            informações e atuação territorial.
+                        </p>
+
+                        <div class="tag-list">
+                            <span>UFMS</span>
+                            <span>Pesquisa</span>
+                            <span>Dados</span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <footer class="footer">
+
+            <strong>VITOR ALEX CALISTO</strong>
+
+            <span>
+                © <span id="year"></span>
+            </span>
+
+        </footer>
+
+    </main>
+
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>

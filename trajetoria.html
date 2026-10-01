@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Trajetória | Vitor Alex Calisto</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<div class="app">
+
+    <aside class="sidebar">
+
+        <a href="index.html" class="brand">
+            <span class="brand-mark">VA</span>
+
+            <span class="brand-info">
+                <strong>Vitor Alex</strong>
+                <small>PORTFÓLIO</small>
+            </span>
+        </a>
+
+        <div class="sidebar-label">NAVEGAÇÃO</div>
+
+        <nav class="sidebar-nav">
+
+            <a href="index.html" class="nav-link">
+                <span>01</span> Dashboard
+            </a>
+
+            <a href="sobre.html" class="nav-link">
+                <span>02</span> Sobre mim
+            </a>
+
+            <a href="projetos.html" class="nav-link">
+                <span>03</span> Projetos
+            </a>
+
+            <a href="tecnologias.html" class="nav-link">
+                <span>04</span> Tecnologias
+            </a>
+
+            <a href="trajetoria.html" class="nav-link active">
+                <span>05</span> Trajetória
+            </a>
+
+            <a href="contato.html" class="nav-link">
+                <span>06</span> Contato
+            </a>
+
+            <a href="configuracoes.html" class="nav-link">
+                <span>07</span> Configurações
+            </a>
+
+        </nav>
+
+    </aside>
+
+
+    <main class="main-content">
+
+        <header class="topbar">
+
+            <button class="mobile-menu" id="mobileMenu">☰</button>
+
+            <div class="breadcrumb">
+                PORTFÓLIO <span>/</span> TRAJETÓRIA
+            </div>
+
+            <div class="topbar-actions">
+
+                <span class="current-time" id="currentTime"></span>
+
+                <button class="theme-toggle" id="themeToggle">
+                    ◐
+                </button>
+
+            </div>
+
+        </header>
+
+
+        <section class="page">
+
+            <div class="page-header">
+
+                <div>
+
+                    <span class="section-kicker">
+                        TRAJETÓRIA
+                    </span>
+
+                    <h1>
+                        Formação e
+                        <span>experiência.</span>
+                    </h1>
+
+                </div>
+
+                <span class="page-code">
+                    #TIMELINE
+                </span>
+
+            </div>
+
+
+            <div class="timeline">
+
+                <article class="timeline-card">
+
+                    <div class="timeline-marker">
+                        01
+                    </div>
+
+                    <div class="timeline-content">
+
+                        <div class="timeline-top">
+                            <span>FORMAÇÃO TÉCNICA</span>
+                            <b>CONCLUÍDO</b>
+                        </div>
+
+                        <h2>
+                            Técnico em Informática
+                        </h2>
+
+                        <p>
+                            Formação técnica com base em informática,
+                            desenvolvimento, suporte e tecnologia.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <article class="timeline-card">
+
+                    <div class="timeline-marker">
+                        02
+                    </div>
+
+                    <div class="timeline-content">
+
+                        <div class="timeline-top">
+                            <span>GRADUAÇÃO</span>
+                            <b class="current">EM ANDAMENTO</b>
+                        </div>
+
+                        <h2>
+                            Sistemas de Informação
+                        </h2>
+
+                        <p>
+                            Graduação com foco em programação,
+                            bancos de dados, engenharia de software,
+                            sistemas e gestão da informação.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <article class="timeline-card">
+
+                    <div class="timeline-marker">
+                        03
+                    </div>
+
+                    <div class="timeline-content">
+
+                        <div class="timeline-top">
+                            <span>PROJETOS</span>
+                            <b class="current">EM ANDAMENTO</b>
+                        </div>
+
+                        <h2>
+                            Desenvolvimento de soluções
+                        </h2>
+
+                        <p>
+                            Desenvolvimento de sistemas, aplicações
+                            web, ferramentas de dados, automações,
+                            projetos de IoT e soluções acadêmicas.
+                        </p>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+
+            <section class="panel">
+
+                <div class="panel-header">
+
+                    <div>
+
+                        <span class="panel-code">
+                            ÁREAS DE INTERESSE
+                        </span>
+
+                        <h2>
+                            Onde aplico tecnologia
+                        </h2>
+
+                    </div>
+
+                </div>
+
+
+                <div class="interest-grid">
+
+                    <div>
+                        <strong>SOFTWARE</strong>
+                        <span>Sistemas e aplicações</span>
+                    </div>
+
+                    <div>
+                        <strong>WEB</strong>
+                        <span>Interfaces e experiências</span>
+                    </div>
+
+                    <div>
+                        <strong>DADOS</strong>
+                        <span>Banco de dados e análise</span>
+                    </div>
+
+                    <div>
+                        <strong>IOT</strong>
+                        <span>Automação e dispositivos</span>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </section>
+
+
+        <footer class="footer">
+
+            <strong>VITOR ALEX CALISTO</strong>
+
+            <span>
+                © <span id="year"></span>
+            </span>
+
+        </footer>
+
+    </main>
+
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
